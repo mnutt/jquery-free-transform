@@ -1,0 +1,23 @@
+{
+  "name": "jquery-free-transform",
+  "version": "2013-12-04",
+  "homepage": "https://github.com/gthmb/jquery-free-transform",
+  "authors": [
+    "Jonathan Greene"
+  ],
+  "description": "Provides simple controls that allows you to move/rotate/scale an element",
+  "main": "./js/jquery.freetrans.js",
+  "keywords": [
+    "transform",
+    "rotate",
+    "scale"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
