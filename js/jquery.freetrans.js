@@ -177,6 +177,7 @@
                         });
 
                         var up = function(evt) {
+                                sel.trigger('transformed.freetrans', data);
                                 $(document).unbind('mousemove.freetrans', drag);
                                 $(document).unbind('mouseup.freetrans', up);
                         };
@@ -207,6 +208,7 @@
                         });
 
                         var up = function(evt) {
+                                sel.trigger('transformed.freetrans', data);
                                 $(document).unbind('mousemove.freetrans', drag);
                                 $(document).unbind('mouseup.freetrans', up);
                         };
@@ -370,6 +372,7 @@
 
                         var up = function(evt) {
                                 _draw(sel, data);
+                                sel.trigger('transformed.freetrans', data);
                                 $(document).unbind('mousemove.freetrans', drag);
                                 $(document).unbind('mouseup.freetrans', up);
                         };
